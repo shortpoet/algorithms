@@ -14,7 +14,9 @@ namespace dotnet
             // codewars.PrinterError.Detect("aasdfasdflkjkljxcvx");
             // codewars.ReverseWords.Parse("This is a test.");
             // codewars.SumDigitPower.Calculate(10, 10000000);
-            codewars.Multiples3or5.FindSum(10);
+            // codewars.Multiples3or5.FindSum(10);
+            // codewars.ValidParentheses.Determine(")()()(");
+            codewars.ValidParentheses.Determine("[hi(hi)(]");
         }
 
     }
