@@ -19,7 +19,7 @@ namespace dotnet.codewars
         message = $"{likers[0]}, {likers[1]} and {likers[2]} like this";        
       } else if (likerCount > 1) {
         message = $"{likers[0]} and {likers[1]} like this";
-      } else if (likerCount > 0) {
+      } else if (likerCount > 0) { 
         message = $"{likers[0]} likes this";
       } else {
         message = "no one likes this";
