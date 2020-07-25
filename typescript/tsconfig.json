@@ -4,6 +4,7 @@
     "strictNullChecks": true,
     "outDir": "dist",
     "target": "ES6",
+    "esModuleInterop": true,
     "strict": true,
     "noImplicitThis": true,
     "noFallthroughCasesInSwitch": true,
