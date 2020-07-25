@@ -33,10 +33,41 @@ export const oddFrequency
       }
     });
     const out = Object.entries(numberMap).filter((v) => {
-      console.log(v)
       return v[1]%2 != 0
     })[0][0]
     console.log(out);
     return parseInt(out);
   }
 oddFrequency([1, 1, 2, 2, 5, 5, 8])
+
+export const findOddArrayGetSet = (xs: number[]): number => {
+  return Array.from(
+    xs.reduce((acc, v, i, arr) => {
+      const val = acc.get(v);
+      if (!val) {
+        acc.set(v, 1);
+      } else if (val) {
+        acc.set(v, val + 1);
+      }
+
+      return acc;
+    }, new Map<number, number>())
+  ).find(([, key], i) => key % 2 !== 0)![0];
+};
+
+export const findOdd = (intArr: number[]): number => {
+  //obj to hold each key of the intArr and the number of the key occurrence in the array
+  const occurrence = {} as {[key:string]:number}
+
+  intArr.forEach((int:number) => {
+    //if the key is not set on the occurrence object,.... set to 1
+    if(!occurrence[`${int}`]) { 
+      occurrence[`${int}`] = 1 
+    } else { // else increment it value by 1
+       occurrence[`${int}`]++;
+    }
+  });
+  //loop through keys of the occurrnence obj and return the key with an odd value
+  const result =  Object.keys(occurrence).find((int:string) => occurrence[int] % 2 > 0);
+  return Number(result)
+};
