@@ -16,7 +16,13 @@ namespace dotnet
             // codewars.SumDigitPower.Calculate(10, 10000000);
             // codewars.Multiples3or5.FindSum(10);
             // codewars.ValidParentheses.Determine(")()()(");
-            codewars.ValidParentheses.Determine("[hi(hi)(]");
+            // codewars.ValidParentheses.Determine("[hi(hi)(]");
+            // codewars.TVRemote.TouchesPerWord("abc");
+            // codewars.PinLength.Validate("123\n");
+            // codewars.BuildTower.Build(3);
+            // codewars.SortTheOdd.Execute(new int[] { 5, 3, 1, 8, 0 });
+            // codewars.CommonDenominators.Calculate(new long[,] { { 1, 3 }, { 1, 8 }, { 1, 12 } });
+            codewars.Prime.Is(123412341);
         }
 
     }

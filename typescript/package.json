@@ -1,0 +1,11 @@
+{
+  "name": "shortpoet_algorithms",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "shortpoet",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "jest": "^26.1.0"
+  }
+}
