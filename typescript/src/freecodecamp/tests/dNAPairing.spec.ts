@@ -4,6 +4,8 @@ interface Iterable<T> {
   [Symbol.iterator](): Iterator<T>;
 }
 // https://www.geekabyte.io/2019/06/typing-iterables-and-iterators-with.html
+// https://dev.to/carlillo/understanding-iterator-pattern-in-javascript-typescript-using-symbol-iterator-a19
+
 // for 'for (let x of y)' to work
 const cases: Record<string, string[][]> = {
   "ATCGA": [["A", "T"], ["T", "A"], ["C", "G"], ["G", "C"], ["A", "T"]],
