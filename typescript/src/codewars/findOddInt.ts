@@ -15,7 +15,6 @@ export const mostFrequent
     const mostFrequent = Object.entries(numberMap).sort((cur, prev) => {
       return prev[1] - cur[1]
     })[0][0]
-    console.log(mostFrequent);
     return parseInt(mostFrequent);
   }
 
@@ -37,7 +36,6 @@ export const oddFrequency
     const out = Object.entries(numberMap).filter((v) => {
       return v[1]%2 != 0
     })[0][0]
-    console.log(out);
     return parseInt(out);
   }
 oddFrequency([1, 1, 2, 2, 5, 5, 8])
