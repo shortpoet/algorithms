@@ -7,7 +7,7 @@ export const digitalRoot
     }
     return out;
   };
-console.log(digitalRoot(15))
+// console.log(digitalRoot(15))
 
 export const digitalRoot2 = (n:number):number => {
   while (n >= 10) {

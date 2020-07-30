@@ -110,4 +110,4 @@ export const romanNumeralDecoder5
       .reduce((a: number, b: number) => a + b);
   };
 
-console.log(romanNumeralDecoder3("IV"))
+// console.log(romanNumeralDecoder3("IV"))

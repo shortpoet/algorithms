@@ -52,17 +52,17 @@ export const nextLargerSameDigits2
     const numStr = n.toString();
     for (let i = numStr.length - 2; i >= 0; i--) {
       const digits = [...numStr.substr(i)];
-      console.log(digits);
+      // console.log(digits);
       
 
       const combos = [...permutatorYield(digits)];
-      console.log(combos);
+      // console.log(combos);
       
       const nums = combos.map(x => +x.join(""));
-      console.log(nums);
+      // console.log(nums);
       
       const candidates = nums.filter(x => x > n);
-      console.log(candidates);
+      // console.log(candidates);
       
       out = candidates.length > 0
         ? getMin(candidates)

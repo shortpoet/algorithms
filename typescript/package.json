@@ -5,7 +5,9 @@
   "author": "shortpoet",
   "license": "MIT",
   "private": false,
-  "dependencies": {},
+  "dependencies": {
+    "nodemon": "^2.0.4"
+  },
   "devDependencies": {
     "@types/jest": "^26.0.7",
     "jest": "^26.1.0",
