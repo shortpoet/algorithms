@@ -12,7 +12,7 @@ export const countBits
     const binary = binaryArray.reverse().join("");
     return binaryArray.filter(b => b == 1).length;
   };
-console.log(`count ${countBits(7)}`);
+// console.log(`count ${countBits(7)}`);
 
 export function countBits1(n: number): number {
   return n.toString(2).replace(/0/g, '').length;
