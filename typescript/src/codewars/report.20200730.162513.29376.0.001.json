@@ -1,0 +1,155 @@
+
+{
+  "header": {
+    "reportVersion": 1,
+    "event": "Allocation failed - JavaScript heap out of memory",
+    "trigger": "FatalError",
+    "filename": "report.20200730.162513.29376.0.001.json",
+    "dumpEventTime": "2020-07-30T16:25:13Z",
+    "dumpEventTimeStamp": "1596144313126",
+    "processId": 29376,
+    "cwd": "H:\\source\\lrn\\algorithms\\typescript\\src\\codewars",
+    "commandLine": [
+      "node",
+      "C:\\Users\\shortpoet\\AppData\\Local\\Yarn\\Data\\global\\node_modules\\.bin\\\\..\\ts-node\\dist\\bin.js",
+      "countBits.ts"
+    ],
+    "nodejsVersion": "v12.14.0",
+    "wordSize": 64,
+    "arch": "x64",
+    "platform": "win32",
+    "componentVersions": {
+      "node": "12.14.0",
+      "v8": "7.7.299.13-node.16",
+      "uv": "1.33.1",
+      "zlib": "1.2.11",
+      "brotli": "1.0.7",
+      "ares": "1.15.0",
+      "modules": "72",
+      "nghttp2": "1.39.2",
+      "napi": "5",
+      "llhttp": "1.1.4",
+      "http_parser": "2.8.0",
+      "openssl": "1.1.1d",
+      "cldr": "35.1",
+      "icu": "64.2",
+      "tz": "2019c",
+      "unicode": "12.1"
+    },
+    "release": {
+      "name": "node",
+      "lts": "Erbium",
+      "headersUrl": "https://nodejs.org/download/release/v12.14.0/node-v12.14.0-headers.tar.gz",
+      "sourceUrl": "https://nodejs.org/download/release/v12.14.0/node-v12.14.0.tar.gz",
+      "libUrl": "https://nodejs.org/download/release/v12.14.0/win-x64/node.lib"
+    },
+    "osName": "Windows_NT",
+    "osRelease": "10.0.19041",
+    "osVersion": "Windows 10 Pro",
+    "osMachine": "x86_64",
+    "cpus": [
+      {
+        "model": "Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz",
+        "speed": 2592,
+        "user": 4830125,
+        "nice": 0,
+        "sys": 9017500,
+        "idle": 146257593,
+        "irq": 3874406
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz",
+        "speed": 2592,
+        "user": 2634796,
+        "nice": 0,
+        "sys": 1856109,
+        "idle": 155613890,
+        "irq": 159265
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz",
+        "speed": 2592,
+        "user": 10698203,
+        "nice": 0,
+        "sys": 4304031,
+        "idle": 145102562,
+        "irq": 79500
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz",
+        "speed": 2592,
+        "user": 7273187,
+        "nice": 0,
+        "sys": 1886437,
+        "idle": 150945171,
+        "irq": 38140
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz",
+        "speed": 2592,
+        "user": 7809421,
+        "nice": 0,
+        "sys": 4915062,
+        "idle": 147380312,
+        "irq": 79546
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz",
+        "speed": 2592,
+        "user": 2804937,
+        "nice": 0,
+        "sys": 1455765,
+        "idle": 155844093,
+        "irq": 45640
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz",
+        "speed": 2592,
+        "user": 6297234,
+        "nice": 0,
+        "sys": 3192687,
+        "idle": 150614875,
+        "irq": 78375
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz",
+        "speed": 2592,
+        "user": 3173765,
+        "nice": 0,
+        "sys": 1665484,
+        "idle": 155265546,
+        "irq": 53500
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz",
+        "speed": 2592,
+        "user": 5245234,
+        "nice": 0,
+        "sys": 2834062,
+        "idle": 152025500,
+        "irq": 73156
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz",
+        "speed": 2592,
+        "user": 3459484,
+        "nice": 0,
+        "sys": 1693328,
+        "idle": 154951984,
+        "irq": 39062
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz",
+        "speed": 2592,
+        "user": 4923171,
+        "nice": 0,
+        "sys": 2579328,
+        "idle": 152602296,
+        "irq": 68406
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz",
+        "speed": 2592,
+        "user": 3155859,
+        "nice": 0,
+        "sys": 1811375

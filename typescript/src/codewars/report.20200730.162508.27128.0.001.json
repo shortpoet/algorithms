@@ -1,0 +1,492 @@
+
+{
+  "header": {
+    "reportVersion": 1,
+    "event": "Allocation failed - JavaScript heap out of memory",
+    "trigger": "FatalError",
+    "filename": "report.20200730.162508.27128.0.001.json",
+    "dumpEventTime": "2020-07-30T16:25:08Z",
+    "dumpEventTimeStamp": "1596144308979",
+    "processId": 27128,
+    "cwd": "H:\\source\\lrn\\algorithms\\typescript\\src\\codewars",
+    "commandLine": [
+      "node",
+      "C:\\Users\\shortpoet\\AppData\\Local\\Yarn\\Data\\global\\node_modules\\.bin\\\\..\\ts-node\\dist\\bin.js",
+      "countBits.ts"
+    ],
+    "nodejsVersion": "v12.14.0",
+    "wordSize": 64,
+    "arch": "x64",
+    "platform": "win32",
+    "componentVersions": {
+      "node": "12.14.0",
+      "v8": "7.7.299.13-node.16",
+      "uv": "1.33.1",
+      "zlib": "1.2.11",
+      "brotli": "1.0.7",
+      "ares": "1.15.0",
+      "modules": "72",
+      "nghttp2": "1.39.2",
+      "napi": "5",
+      "llhttp": "1.1.4",
+      "http_parser": "2.8.0",
+      "openssl": "1.1.1d",
+      "cldr": "35.1",
+      "icu": "64.2",
+      "tz": "2019c",
+      "unicode": "12.1"
+    },
+    "release": {
+      "name": "node",
+      "lts": "Erbium",
+      "headersUrl": "https://nodejs.org/download/release/v12.14.0/node-v12.14.0-headers.tar.gz",
+      "sourceUrl": "https://nodejs.org/download/release/v12.14.0/node-v12.14.0.tar.gz",
+      "libUrl": "https://nodejs.org/download/release/v12.14.0/win-x64/node.lib"
+    },
+    "osName": "Windows_NT",
+    "osRelease": "10.0.19041",
+    "osVersion": "Windows 10 Pro",
+    "osMachine": "x86_64",
+    "cpus": [
+      {
+        "model": "Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz",
+        "speed": 2592,
+        "user": 4829390,
+        "nice": 0,
+        "sys": 9016453,
+        "idle": 146255218,
+        "irq": 3874234
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz",
+        "speed": 2592,
+        "user": 2634312,
+        "nice": 0,
+        "sys": 1855406,
+        "idle": 155610921,
+        "irq": 159218
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz",
+        "speed": 2592,
+        "user": 10696375,
+        "nice": 0,
+        "sys": 4303046,
+        "idle": 145101218,
+        "irq": 79500
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz",
+        "speed": 2592,
+        "user": 7272296,
+        "nice": 0,
+        "sys": 1885843,
+        "idle": 150942500,
+        "irq": 38140
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz",
+        "speed": 2592,
+        "user": 7808093,
+        "nice": 0,
+        "sys": 4914296,
+        "idle": 147378250,
+        "irq": 79546
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz",
+        "speed": 2592,
+        "user": 2804156,
+        "nice": 0,
+        "sys": 1455203,
+        "idle": 155841281,
+        "irq": 45625
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz",
+        "speed": 2592,
+        "user": 6296046,
+        "nice": 0,
+        "sys": 3192046,
+        "idle": 150612546,
+        "irq": 78359
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz",
+        "speed": 2592,
+        "user": 3172421,
+        "nice": 0,
+        "sys": 1664703,
+        "idle": 155263515,
+        "irq": 53500
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz",
+        "speed": 2592,
+        "user": 5244218,
+        "nice": 0,
+        "sys": 2833484,
+        "idle": 152022937,
+        "irq": 73156
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz",
+        "speed": 2592,
+        "user": 3458687,
+        "nice": 0,
+        "sys": 1693015,
+        "idle": 154948937,
+        "irq": 39062
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz",
+        "speed": 2592,
+        "user": 4922062,
+        "nice": 0,
+        "sys": 2578609,
+        "idle": 152599968,
+        "irq": 68390
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz",
+        "speed": 2592,
+        "user": 3154937,
+        "nice": 0,
+        "sys": 1810796,
+        "idle": 155134906,
+        "irq": 32984
+      }
+    ],
+    "networkInterfaces": [
+      {
+        "name": "vEthernet (Default Switch)",
+        "internal": false,
+        "mac": "00:15:5d:82:c1:59",
+        "address": "fe80::1155:b43e:5fb5:1a13",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 39
+      },
+      {
+        "name": "vEthernet (Default Switch)",
+        "internal": false,
+        "mac": "00:15:5d:82:c1:59",
+        "address": "172.23.160.1",
+        "netmask": "255.255.240.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "Wi-Fi",
+        "internal": false,
+        "mac": "04:ed:33:97:ef:d2",
+        "address": "2600:6c40:200:3539:d0b1:4604:e21d:1bf5",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "Wi-Fi",
+        "internal": false,
+        "mac": "04:ed:33:97:ef:d2",
+        "address": "2600:6c40:200:3539:984:680d:2b2f:7e78",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "Wi-Fi",
+        "internal": false,
+        "mac": "04:ed:33:97:ef:d2",
+        "address": "fe80::d0b1:4604:e21d:1bf5",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 11
+      },
+      {
+        "name": "Wi-Fi",
+        "internal": false,
+        "mac": "04:ed:33:97:ef:d2",
+        "address": "192.168.1.108",
+        "netmask": "255.255.255.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "::1",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "127.0.0.1",
+        "netmask": "255.0.0.0",
+        "family": "IPv4"
+      }
+    ],
+    "host": "hamflavor"
+  },
+  "javascriptStack": {
+    "message": "No stack.",
+    "stack": [
+      "Unavailable."
+    ]
+  },
+  "nativeStack": [
+    {
+      "pc": "0x00007ff79bad1729",
+      "symbol": "std::basic_ostream<char,std::char_traits<char> >::operator<<+10873"
+    },
+    {
+      "pc": "0x00007ff79bad5b4c",
+      "symbol": "std::basic_ostream<char,std::char_traits<char> >::operator<<+28316"
+    },
+    {
+      "pc": "0x00007ff79bad4b08",
+      "symbol": "std::basic_ostream<char,std::char_traits<char> >::operator<<+24152"
+    },
+    {
+      "pc": "0x00007ff79bbc369b",
+      "symbol": "v8::base::CPU::has_sse+37723"
+    },
+    {
+      "pc": "0x00007ff79c3c82de",
+      "symbol": "v8::Isolate::ReportExternalAllocationLimitReached+94"
+    },
+    {
+      "pc": "0x00007ff79c3b0321",
+      "symbol": "v8::SharedArrayBuffer::Externalize+833"
+    },
+    {
+      "pc": "0x00007ff79c27dbec",
+      "symbol": "v8::internal::Heap::EphemeronKeyWriteBarrierFromCode+1436"
+    },
+    {
+      "pc": "0x00007ff79c29b112",
+      "symbol": "v8::internal::Factory::NewFixedDoubleArray+98"
+    },
+    {
+      "pc": "0x00007ff79c17ba2f",
+      "symbol": "v8::Object::GetIsolate+5871"
+    },
+    {
+      "pc": "0x00007ff79c02f13a",
+      "symbol": "v8::internal::OrderedHashMap::ValueAt+61274"
+    },
+    {
+      "pc": "0x00007ff79c7f404d",
+      "symbol": "v8::internal::SetupIsolateDelegate::SetupHeap+567949"
+    },
+    {
+      "pc": "0x00000381989fe4d9",
+      "symbol": ""
+    }
+  ],
+  "javascriptHeap": {
+    "totalMemory": 1622822912,
+    "totalCommittedMemory": 1622822912,
+    "usedMemory": 1585332744,
+    "availableMemory": 592716840,
+    "memoryLimit": 2197815296,
+    "heapSpaces": {
+      "read_only_space": {
+        "memorySize": 262144,
+        "committedMemory": 262144,
+        "capacity": 261872,
+        "used": 32296,
+        "available": 229576
+      },
+      "new_space": {
+        "memorySize": 33554432,
+        "committedMemory": 33554432,
+        "capacity": 16759808,
+        "used": 0,
+        "available": 16759808
+      },
+      "old_space": {
+        "memorySize": 62500864,
+        "committedMemory": 62500864,
+        "capacity": 60176024,
+        "used": 60176024,
+        "available": 0
+      },
+      "code_space": {
+        "memorySize": 1474560,
+        "committedMemory": 1474560,
+        "capacity": 1400832,
+        "used": 665760,
+        "available": 735072
+      },
+      "map_space": {
+        "memorySize": 1052672,
+        "committedMemory": 1052672,
+        "capacity": 559680,
+        "used": 559680,
+        "available": 0
+      },
+      "large_object_space": {
+        "memorySize": 621416448,
+        "committedMemory": 621416448,
+        "capacity": 621384552,
+        "used": 621384552,
+        "available": 0
+      },
+      "code_large_object_space": {
+        "memorySize": 49152,
+        "committedMemory": 49152,
+        "capacity": 3552,
+        "used": 3552,
+        "available": 0
+      },
+      "new_large_object_space": {
+        "memorySize": 902512640,
+        "committedMemory": 902512640,
+        "capacity": 902510880,
+        "used": 902510880,
+        "available": 0
+      }
+    }
+  },
+  "resourceUsage": {
+    "userCpuSeconds": 5.687,
+    "kernelCpuSeconds": 1.656,
+    "cpuConsumptionPercent": 183.575,
+    "maxRss": 1877868544,
+    "pageFaults": {
+      "IORequired": 785768,
+      "IONotRequired": 0
+    },
+    "fsActivity": {
+      "reads": 185,
+      "writes": 89
+    }
+  },
+  "libuv": [
+  ],
+  "environmentVariables": {
+    "=C:": "C:\\",
+    "=H:": "H:\\source\\lrn\\algorithms\\typescript\\src\\codewars",
+    "ACLOCAL_PATH": "C:\\Program Files\\Git\\mingw64\\share\\aclocal;C:\\Program Files\\Git\\usr\\share\\aclocal",
+    "ALLUSERSPROFILE": "C:\\ProgramData",
+    "APPDATA": "C:\\Users\\shortpoet\\AppData\\Roaming",
+    "ASPNETCORE_ENVIRONMENT": "Development",
+    "ChocolateyInstall": "C:\\ProgramData\\chocolatey",
+    "ChocolateyLastPathUpdate": "132227591201580761",
+    "COMMONPROGRAMFILES": "C:\\Program Files\\Common Files",
+    "CommonProgramFiles(x86)": "C:\\Program Files (x86)\\Common Files",
+    "CommonProgramW6432": "C:\\Program Files\\Common Files",
+    "COMPUTERNAME": "HAMFLAVOR",
+    "COMSPEC": "C:\\WINDOWS\\system32\\cmd.exe",
+    "CONFIG_SITE": "C:/Program Files/Git/mingw64/etc/config.site",
+    "DISPLAY": "needs-to-be-defined",
+    "DriverData": "C:\\Windows\\System32\\Drivers\\DriverData",
+    "EXEPATH": "C:\\Program Files\\Git",
+    "FPS_BROWSER_APP_PROFILE_STRING": "Internet Explorer",
+    "FPS_BROWSER_USER_PROFILE_STRING": "Default",
+    "HOME": "C:\\Users\\shortpoet",
+    "HOMEDRIVE": "C:",
+    "HOMEPATH": "\\Users\\shortpoet",
+    "HOSTNAME": "hamflavor",
+    "INFOPATH": "C:\\Program Files\\Git\\usr\\local\\info;C:\\Program Files\\Git\\usr\\share\\info;C:\\Program Files\\Git\\usr\\info;C:\\Program Files\\Git\\share\\info",
+    "LANG": "en_US.UTF-8",
+    "LOCALAPPDATA": "C:\\Users\\shortpoet\\AppData\\Local",
+    "LOGONSERVER": "\\\\HAMFLAVOR",
+    "MANPATH": "C:\\Program Files\\Git\\mingw64\\local\\man;C:\\Program Files\\Git\\mingw64\\share\\man;C:\\Program Files\\Git\\usr\\local\\man;C:\\Program Files\\Git\\usr\\share\\man;C:\\Program Files\\Git\\usr\\man;C:\\Program Files\\Git\\share\\man",
+    "MINGW_CHOST": "x86_64-w64-mingw32",
+    "MINGW_PACKAGE_PREFIX": "mingw-w64-x86_64",
+    "MINGW_PREFIX": "C:/Program Files/Git/mingw64",
+    "MSYSTEM": "MINGW64",
+    "MSYSTEM_CARCH": "x86_64",
+    "MSYSTEM_CHOST": "x86_64-w64-mingw32",
+    "MSYSTEM_PREFIX": "C:/Program Files/Git/mingw64",
+    "NUMBER_OF_PROCESSORS": "12",
+    "OLDPWD": "H:/source/lrn/algorithms/typescript",
+    "OneDrive": "C:\\Users\\soria\\OneDrive",
+    "OneDriveConsumer": "C:\\Users\\soria\\OneDrive",
+    "ORIGINAL_PATH": "C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Users\\shortpoet\\bin;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Microsoft SDKs\\Azure\\CLI2\\wbin;C:\\Python27;C:\\Python27\\Scripts;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0;C:\\WINDOWS\\System32\\OpenSSH;C:\\Program Files\\dotnet;C:\\Program Files\\nodejs;C:\\ProgramData\\chocolatey\\bin;C:\\WINDOWS\\System32;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn;C:\\Program Files (x86)\\Microsoft SQL Server\\150\\Tools\\Binn;C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn;C:\\Program Files\\Microsoft SQL Server\\150\\DTS\\Binn;C:\\Program Files (x86)\\Microsoft SQL Server\\150\\DTS\\Binn;C:\\Program Files\\Calibre2;C:\\Program Files\\Java\\jdk-14\\bin;C:\\Program Files\\Cloud Foundry;C:\\Program Files (x86)\\Yarn\\bin;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32;C:\\Program Files\\PowerShell\\7;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\ProgramData\\DockerDesktop\\version-bin;C:\\Users\\shortpoet\\.windows-build-tools\\python27;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0;C:\\Windows\\System32\\OpenSSH;C:\\Program Files\\dotnet;C:\\Program Files\\nodejs;C:\\ProgramData\\chocolatey\\bin;C:\\Windows\\System32;C:\\Users\\shortpoet\\Anaconda3;C:\\Users\\shortpoet\\Anaconda3\\Library\\mingw-w64\\bin;C:\\Users\\shortpoet\\Anaconda3\\Library\\usr\\bin;C:\\Users\\shortpoet\\Anaconda3\\Library\\bin;C\\Users\\shortpoet\\Anaconda3\\Scripts;C:\\Users\\shortpoet\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Program Files\\Git\\cmd;C:\\Users\\shortpoet\\.dotnet\\tools;C:\\Program Files\\Mozilla Firefox;C:\\Users\\shortpoet\\AppData\\Roaming\\npm;C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319;C:\\Users\\shortpoet\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Program Files\\wkhtmltopdf\\bin;C:\\Users\\shortpoet\\Anaconda3;C:\\Users\\shortpoet\\Anaconda3\\scripts;C:\\Users\\shortpoet\\AppData\\Local\\Yarn\\bin;C:\\Program Files\\MongoDB\\Server\\4.2\\bin;C:\\Users\\shortpoet\\.dotnet\\tools;C:\\Users\\shortpoet\\AppData\\Local\\Microsoft\\WindowsApps",
+    "ORIGINAL_TEMP": "C:/Users/SHORTP~1/AppData/Local/Temp",
+    "ORIGINAL_TMP": "C:/Users/SHORTP~1/AppData/Local/Temp",
+    "OS": "Windows_NT",
+    "PATH": "H:\\source\\lrn\\algorithms\\typescript\\src\\codewars/node_modules/.bin:C:\\Users\\shortpoet\\bin;C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\local\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Users\\shortpoet\\bin;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Microsoft SDKs\\Azure\\CLI2\\wbin;C:\\Python27;C:\\Python27\\Scripts;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0;C:\\WINDOWS\\System32\\OpenSSH;C:\\Program Files\\dotnet;C:\\Program Files\\nodejs;C:\\ProgramData\\chocolatey\\bin;C:\\WINDOWS\\System32;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn;C:\\Program Files (x86)\\Microsoft SQL Server\\150\\Tools\\Binn;C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn;C:\\Program Files\\Microsoft SQL Server\\150\\DTS\\Binn;C:\\Program Files (x86)\\Microsoft SQL Server\\150\\DTS\\Binn;C:\\Program Files\\Calibre2;C:\\Program Files\\Java\\jdk-14\\bin;C:\\Program Files\\Cloud Foundry;C:\\Program Files (x86)\\Yarn\\bin;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32;C:\\Program Files\\PowerShell\\7;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\ProgramData\\DockerDesktop\\version-bin;C:\\Users\\shortpoet\\.windows-build-tools\\python27;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0;C:\\Windows\\System32\\OpenSSH;C:\\Program Files\\dotnet;C:\\Program Files\\nodejs;C:\\ProgramData\\chocolatey\\bin;C:\\Windows\\System32;C:\\Users\\shortpoet\\Anaconda3;C:\\Users\\shortpoet\\Anaconda3\\Library\\mingw-w64\\bin;C:\\Users\\shortpoet\\Anaconda3\\Library\\usr\\bin;C:\\Users\\shortpoet\\Anaconda3\\Library\\bin;C\\Users\\shortpoet\\Anaconda3\\Scripts;C:\\Users\\shortpoet\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Program Files\\Git\\cmd;C:\\Users\\shortpoet\\.dotnet\\tools;C:\\Program Files\\Mozilla Firefox;C:\\Users\\shortpoet\\AppData\\Roaming\\npm;C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319;C:\\Users\\shortpoet\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Program Files\\wkhtmltopdf\\bin;C:\\Users\\shortpoet\\Anaconda3;C:\\Users\\shortpoet\\Anaconda3\\scripts;C:\\Users\\shortpoet\\AppData\\Local\\Yarn\\bin;C:\\Program Files\\MongoDB\\Server\\4.2\\bin;C:\\Users\\shortpoet\\.dotnet\\tools;C:\\Users\\shortpoet\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\Git\\usr\\bin\\vendor_perl;C:\\Program Files\\Git\\usr\\bin\\core_perl",
+    "PATHEXT": ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JSE;.WSF;.WSH;.MSC",
+    "PKG_CONFIG_PATH": "C:\\Program Files\\Git\\mingw64\\lib\\pkgconfig;C:\\Program Files\\Git\\mingw64\\share\\pkgconfig",
+    "PLINK_PROTOCOL": "ssh",
+    "POWERSHELL_DISTRIBUTION_CHANNEL": "MSI:Windows 10 Pro",
+    "PROCESSOR_ARCHITECTURE": "AMD64",
+    "PROCESSOR_IDENTIFIER": "Intel64 Family 6 Model 158 Stepping 10, GenuineIntel",
+    "PROCESSOR_LEVEL": "6",
+    "PROCESSOR_REVISION": "9e0a",
+    "ProgramData": "C:\\ProgramData",
+    "PROGRAMFILES": "C:\\Program Files",
+    "ProgramFiles(x86)": "C:\\Program Files (x86)",
+    "ProgramW6432": "C:\\Program Files",
+    "PROMPT": "$P$G",
+    "PSModulePath": "C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules;C:\\Program Files (x86)\\Microsoft SQL Server\\150\\Tools\\PowerShell\\Modules\\",
+    "PUBLIC": "C:\\Users\\Public",
+    "PWD": "H:/source/lrn/algorithms/typescript/src/codewars",
+    "SESSIONNAME": "Console",
+    "SHELL": "C:\\Program Files\\Git\\usr\\bin\\bash.exe",
+    "SHLVL": "2",
+    "SSH_ASKPASS": "C:/Program Files/Git/mingw64/libexec/git-core/git-gui--askpass",
+    "SYSTEMDRIVE": "C:",
+    "SYSTEMROOT": "C:\\WINDOWS",
+    "TEMP": "C:\\Users\\SHORTP~1\\AppData\\Local\\Temp",
+    "TERM": "xterm",
+    "TERM_PROGRAM": "mintty",
+    "TERM_PROGRAM_VERSION": "3.1.6",
+    "TMP": "C:\\Users\\SHORTP~1\\AppData\\Local\\Temp",
+    "TMPDIR": "C:\\Users\\SHORTP~1\\AppData\\Local\\Temp",
+    "USERDOMAIN": "HAMFLAVOR",
+    "USERDOMAIN_ROAMINGPROFILE": "HAMFLAVOR",
+    "USERNAME": "shortpoet",
+    "USERPROFILE": "C:\\Users\\shortpoet",
+    "WINDIR": "C:\\WINDOWS",
+    "_": "C:/Program Files/nodejs/node"
+  },
+  "sharedObjects": [
+    "C:\\Program Files\\nodejs\\node.exe",
+    "C:\\WINDOWS\\SYSTEM32\\ntdll.dll",
+    "C:\\WINDOWS\\System32\\KERNEL32.DLL",
+    "C:\\WINDOWS\\System32\\KERNELBASE.dll",
+    "C:\\WINDOWS\\System32\\WS2_32.dll",
+    "C:\\WINDOWS\\System32\\RPCRT4.dll",
+    "C:\\WINDOWS\\System32\\ADVAPI32.dll",
+    "C:\\WINDOWS\\SYSTEM32\\dbghelp.dll",
+    "C:\\WINDOWS\\System32\\msvcrt.dll",
+    "C:\\WINDOWS\\System32\\ucrtbase.dll",
+    "C:\\WINDOWS\\System32\\sechost.dll",
+    "C:\\WINDOWS\\System32\\USER32.dll",
+    "C:\\WINDOWS\\System32\\win32u.dll",
+    "C:\\WINDOWS\\System32\\GDI32.dll",
+    "C:\\WINDOWS\\System32\\gdi32full.dll",
+    "C:\\WINDOWS\\System32\\msvcp_win.dll",
+    "C:\\WINDOWS\\System32\\PSAPI.DLL",
+    "C:\\WINDOWS\\System32\\CRYPT32.dll",
+    "C:\\WINDOWS\\System32\\bcrypt.dll",
+    "C:\\WINDOWS\\SYSTEM32\\IPHLPAPI.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\USERENV.dll",
+    "C:\\WINDOWS\\SYSTEM32\\WINMM.dll",
+    "C:\\WINDOWS\\System32\\IMM32.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\powrprof.dll",
+    "C:\\WINDOWS\\SYSTEM32\\UMPDC.dll",
+    "C:\\WINDOWS\\SYSTEM32\\CRYPTBASE.DLL",
+    "C:\\WINDOWS\\system32\\uxtheme.dll",
+    "C:\\WINDOWS\\System32\\combase.dll",
+    "C:\\WINDOWS\\system32\\mswsock.dll",
+    "C:\\WINDOWS\\SYSTEM32\\kernel.appcore.dll",
+    "C:\\WINDOWS\\System32\\bcryptprimitives.dll",
+    "C:\\WINDOWS\\System32\\NSI.dll",
+    "C:\\WINDOWS\\SYSTEM32\\dhcpcsvc6.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\dhcpcsvc.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\DNSAPI.dll",
+    "C:\\WINDOWS\\system32\\napinsp.dll",
+    "C:\\WINDOWS\\system32\\pnrpnsp.dll",
+    "C:\\WINDOWS\\system32\\wshbth.dll",
+    "C:\\WINDOWS\\system32\\NLAapi.dll",
+    "C:\\WINDOWS\\System32\\winrnr.dll"
+  ]
+}
