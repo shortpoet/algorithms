@@ -1,24 +1,24 @@
 import { permutator, permuteYield, permutatorYield } from '../typescript/permutator';
 
+const getMax = (arr: number[]): number => {
+  let len = arr.length;
+  let max = -Infinity;
+  while (len--) {
+    max = arr[len] > max ? arr[len] : max;
+  }
+  return max;
+}
+const getMin = (arr: number[]): number => {
+  let len = arr.length;
+  let min = Infinity;
+  while (len--) {
+    min = arr[len] < min ? arr[len] : min;
+  }
+  return min;
+}
 export const nextLargerSameDigits
   = (n: number): number => {
-    
-    const getMax = (arr: number[]): number => {
-      let len = arr.length;
-      let max = -Infinity;
-      while (len--) {
-        max = arr[len] > max ? arr[len] : max;
-      }
-      return max;
-    }
-    const getMin = (arr: number[]): number => {
-      let len = arr.length;
-      let min = Infinity;
-      while (len--) {
-        min = arr[len] < min ? arr[len] : min;
-      }
-      return min;
-    }
+    //https://stackoverflow.com/questions/42623071/maximum-call-stack-size-exceeded-with-math-min-and-math-max
     const digits = [...n.toString()];
     const combos = permutator(digits);
     const nums = combos.map(x => +x.join(""));
@@ -32,22 +32,6 @@ export const nextLargerSameDigits
 export const nextLargerSameDigits2
   = (n: number): number => {
     
-    const getMax = (arr: number[]): number => {
-      let len = arr.length;
-      let max = -Infinity;
-      while (len--) {
-        max = arr[len] > max ? arr[len] : max;
-      }
-      return max;
-    }
-    const getMin = (arr: number[]): number => {
-      let len = arr.length;
-      let min = Infinity;
-      while (len--) {
-        min = arr[len] < min ? arr[len] : min;
-      }
-      return min;
-    }
     let out = -1;
     const numStr = n.toString();
     for (let i = numStr.length - 2; i >= 0; i--) {
@@ -76,22 +60,6 @@ export const nextLargerSameDigits2
 export const nextLargerSameDigitsYield
   = (n: number): number => {
     
-    const getMax = (arr: number[]): number => {
-      let len = arr.length;
-      let max = -Infinity;
-      while (len--) {
-        max = arr[len] > max ? arr[len] : max;
-      }
-      return max;
-    }
-    const getMin = (arr: number[]): number => {
-      let len = arr.length;
-      let min = Infinity;
-      while (len--) {
-        min = arr[len] < min ? arr[len] : min;
-      }
-      return min;
-    }
     const digits = [...n.toString()];
     const combos = [...permuteYield(digits)];
     const nums = combos.map(x => +x.join(""));
