@@ -26,6 +26,7 @@ export class Connect4 {
     // console.log(this.grid);
     const verticalWin =
       (): void => { 
+
         if (this.player1VertStack == 4) {
           this.winner = "1";
         } 
@@ -36,12 +37,19 @@ export class Connect4 {
 
     const checkWinCondition =
       (): void => { 
+        verticalWin();
+        let colCount = 0;
+        for (let column in this.grid) { 
+          for (let cell in column) { 
+
+          }
+        }
         this.grid.forEach((column, colNum) => { 
           column.forEach((cell, rowNum) => { 
-            if (cell != false) { 
-              console.log([colNum, rowNum]);
+            // if (cell != false) { 
+            //   console.log([colNum, rowNum]);
               
-            }
+            // }
             // if (cell != false) { 
             //   console.log([colNum, rowNum]);
               
@@ -68,3 +76,5 @@ export class Connect4 {
   }
 
 }
+
+// https://stackoverflow.com/questions/41623032/check-4-consecutive-identical-diagonal-elements-in-2d-array-connect-4-game
