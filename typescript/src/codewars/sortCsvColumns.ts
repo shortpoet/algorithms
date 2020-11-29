@@ -26,7 +26,7 @@ export const sortCsvColumns2 =
 
 export const sortCsvColumns3  =  (csv: string): string => {
   const lines = csv.split('\n').map(line => line.split(';'))
-  console.log(lines);
+  // console.log(lines);
   
   const h = lines[0].map(s => s.toLowerCase())
   const sortOrder = h.map((_, i) => i).sort((a,b) => h[a] < h[b] ? -1 : h[a] > h[b] ? 1 : 0)
@@ -35,9 +35,10 @@ export const sortCsvColumns3  =  (csv: string): string => {
 export const sortCsvColumns  =  (csvFileContent: string): string => {
   const rows = csvFileContent.split('\n').map(row => row.split(';'));
   const headers = rows[0].map(x => x.toLowerCase());
-  console.log(headers);
+  // console.log(headers);
   // https://stackoverflow.com/questions/51164161/spread-syntax-vs-slice-method
-  console.log(headers.slice());
+  // console.log(headers.slice());
   
   const transform = headers.slice().sort().map(x => headers.indexOf(x.toLowerCase()));
-  return rows.map(row => transform.map(i => row[i])).map(row => row.join(';')).join('\n');}
+  return rows.map(row => transform.map(i => row[i])).map(row => row.join(';')).join('\n');
+}
