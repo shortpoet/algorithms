@@ -40,9 +40,9 @@ export class Connect4 {
         verticalWin();
         let colCount = 0;
         for (let column in this.grid) { 
-          for (let cell in column) { 
+          // for (let cell in column) { 
 
-          }
+          // }
         }
         this.grid.forEach((column, colNum) => { 
           column.forEach((cell, rowNum) => { 

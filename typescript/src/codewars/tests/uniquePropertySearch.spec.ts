@@ -15,6 +15,9 @@ describe("duplicateEncoder", function () {
       { x: 2, y: 2 },
       { x: 1, z: 1 },
     ];
-    expect(uniquePropertySearch(objs, keys)).toEqual(expected);
+    console.log(uniquePropertySearch(objs, keys));
+    console.log(expected);
+    
+    expect(uniquePropertySearch(objs, keys)).toStrictEqual(expected);
 });
 });
