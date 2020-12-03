@@ -21,7 +21,13 @@ export const directionsReduction =
     return results;
   }
 
+  // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/findIndex
+
 // https://www.codewars.com/kata/550f22f4d758534c1100025a/solutions/typescript
+// https://stackoverflow.com/questions/57701306/using-reduce-instead-of-chaining-filter-and-map
+// https://stackoverflow.com/questions/48853883/how-to-filter-and-reduce-javascript-array-object
+// https://stackoverflow.com/questions/52466938/using-map-with-reduce-in-javascript-to-filter-objects-in-an-array
+// https://stackoverflow.com/questions/34954347/using-reduce-to-build-a-filter-function-in-javascript
 
 export function dirReduc5(arr: string[]): string[] {
   const opposites: any = {
