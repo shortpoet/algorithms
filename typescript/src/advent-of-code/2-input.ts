@@ -1,4 +1,6 @@
-export const input = [
+import { PassValidateInputTuple } from "./2-passwordPhilosophy";
+
+export const input: PassValidateInputTuple[] = [
   [[15, 16], "l", "klfbblslvjclmlnqklvg"],
   [[6, 13], "h", "pghjchdxhnjhjd"],
   [[4, 13], "n", "nnznntzznqnzbtzj"],
