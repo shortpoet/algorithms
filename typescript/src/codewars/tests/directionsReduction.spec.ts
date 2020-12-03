@@ -8,5 +8,5 @@ const tester
     );
 describe("directionsReduction.ts", () => {
   tester(["NORTH", "SOUTH", "SOUTH", "EAST", "WEST", "NORTH", "WEST"], ["WEST"]);
-  tester(["NORTH","SOUTH","SOUTH","EAST","WEST","NORTH"], []);
+  tester(["NORTH", "SOUTH", "SOUTH", "EAST", "WEST", "NORTH"], []);
 });
