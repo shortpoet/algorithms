@@ -49,7 +49,7 @@ export function dirReduc5(arr: string[]): string[] {
 
 // 
 
-export const dirReduc = (directionsArray: string[]): string[] => {
+export const dirReduc7 = (directionsArray: string[]): string[] => {
   for (let i = 0; i < directionsArray.length; i++) {
       const opositsValue = OPPOSITS[directionsArray[i]];
       if (opositsValue === directionsArray[i + 1]) {
