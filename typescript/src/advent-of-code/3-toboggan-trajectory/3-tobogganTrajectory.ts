@@ -1,14 +1,14 @@
-const fs = require('fs');
+// https://stackoverflow.com/a/50913569/12658653
+export { };
 
-const callback = (err: Error, data: string) => {
-  if (err) throw err;
-  console.log(data);
-}
+const fs = require('fs');
+const path = require('path');
+const file = path.resolve(__dirname, "./3-input.txt");
+
 const data: Array<string[]> = fs.readFileSync(
-  "./3-input.txt",
-  // "./3-input.txt",
-  "utf-8",
-  callback
+  // "H:\\source\\lrn\\algorithms\\typescript\\src\\advent-of-code\\3-toboggan-trajectory\\3-input.txt",
+  file,
+  "utf-8"
 )
   .split('\n')
   .map((l: string) => l.split(''));
