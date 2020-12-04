@@ -18,25 +18,27 @@ const data: Array<string[]> = fs.readFileSync(
 // console.log(data.length*data[0].length);
 
 const tobogganTrajectory2 =
-  (topography: Array<string[]>): number => {
+  (topography: Array<string[]>, offsetX: number, offsetY: number): number => {
     let count = 0;
-    let offset = 0;
-    topography
-      .forEach((row, i) => {
-        offset = offset >= row.length
-          ? offset - row.length
-          : offset
-        const feature = row[offset];
-        offset += 3;
-        console.log(`[${i}, ${offset}]`);
-
-        if (feature == '#') count++;
-      })
-
+    let x = 0;
+    for (let y = 0; y < topography.length; y += offsetY, x += offsetX) {
+      const row = topography[y];
+        x = x >= row.length
+        ? x - row.length
+        : x
+      const feature = row[x];
+      // console.log(`[${y}, ${x}]`);
+      if (feature == '#') count++;
+    }
     return count;
   }
-  
-const tobogganTrajectory =
+
+const multiTrajectory =
+  (data: Array<string[]>, slopes: Array<[number, number]>): number => { 
+    return slopes.reduce((product, slope) => product *= tobogganTrajectory2(data, slope[0], slope[1]), 1);
+  };
+
+const tobogganTrajectory1 =
   (topography: Array<string[]>): number => {
     let count = 0;
     let offset = 0;
@@ -47,7 +49,7 @@ const tobogganTrajectory =
           : offset
         const feature = row[offset];
         offset += 3;
-        console.log(`[${i}, ${offset}]`);
+        // console.log(`[${i}, ${offset}]`);
 
         if (feature == '#') count++;
       })
@@ -82,4 +84,6 @@ const tobogganTrajectory =
 
   };
 
-console.log(tobogganTrajectory(data))
+console.log(tobogganTrajectory1(data))
+console.log(tobogganTrajectory2(data, 3, 1))
+console.log(multiTrajectory(data, [[1,1], [3,1], [5,1], [7,1], [1,2]]));
