@@ -1,4 +1,4 @@
-import {binaryBoarding} from '../binaryBoarding'
+import {binaryBoarding} from './5-binaryBoarding'
 describe("binaryBoarding", function () {
   it("test", function() {
     expect(binaryBoarding("FBFBBFFRLR")).toBe(357);
