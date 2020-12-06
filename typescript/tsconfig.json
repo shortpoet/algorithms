@@ -3,11 +3,13 @@
     "noImplicitAny": true,
     "strictNullChecks": true,
     "outDir": "dist",
-    "target": "ES6",
+    "module": "esnext",
+    "target": "es2017",
     "esModuleInterop": true,
     "strict": true,
     "noImplicitThis": true,
     "noFallthroughCasesInSwitch": true,
     "noImplicitReturns": true,
+    "lib": ["es2018", "dom", "esnext"]
   }
 }
