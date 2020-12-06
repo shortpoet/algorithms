@@ -1,7 +1,8 @@
 import {customCustoms} from './6-customCustoms'
-describe("binaryBoarding", function () {
+describe("customCustoms", function () {
   it("test", function() {
-    expect(customCustoms([["abc"],["a","b","c"],["ab","ac"],["a","a","a","a"],["b"]])).toBe(11);
+    expect(customCustoms(["abc","abc","abac","aaaa","b"])).toBe(11);
+    // expect(customCustoms([["abc"],["a","b","c"],["ab","ac"],["a","a","a","a"],["b"]])).toBe(11);
   });
 });
 

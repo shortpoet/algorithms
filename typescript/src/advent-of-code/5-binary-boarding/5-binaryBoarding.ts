@@ -114,7 +114,6 @@ console.log(missingSeats);
 
 // https://www.reddit.com/r/adventofcode/comments/k71h6r/2020_day_05_solutions/gepwane?utm_source=share&utm_medium=web2x&context=3
 
-import fs from 'fs';
 
 // fs.readFile('./data.txt', 'utf8', (err, data) => {
 //     console.log('question 1: ', main(data.split('\r\n')));
